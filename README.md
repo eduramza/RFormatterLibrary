@@ -13,7 +13,7 @@ HOW TO USE:
 And Add your dependencies in App Module Build.gradle
 
       dependencies {
-	        implementation 'com.github.eduramza:RFormatterLibrary:Tag'
+	        implementation 'com.github.eduramza:RFormatterLibrary:0.1.0'
 	    }
       
       
@@ -32,3 +32,5 @@ in your Activity or Fragment add this code for Phone Brazil Formatter:
             val phoneFormatter = PhoneNumberFormatter(WeakReference(edit_text), country)
             edit_text.addTextChangedListener(phoneFormatter)
         }
+	
+current Veersion = 0.1.0	
